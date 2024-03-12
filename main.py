@@ -49,7 +49,7 @@ def search():
 
 root = ttkbootstrap.Window(themename="morph")
 root.title("Weather App")
-root.geometry("400x400")
+root.geometry("500x500")
 
 # Create an entry widget -> to enter the city name
 city_entry = ttkbootstrap.Entry(root, font="Helvetica, 18")
